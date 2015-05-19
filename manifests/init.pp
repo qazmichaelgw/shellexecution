@@ -37,7 +37,7 @@
 #
 class shellexecution {
     exec { 'hello world':
-        command => "/bin/echo Hello World >> /tmp/are-you-there.txt",
+        command => "/bin/echo Hello World",
 	logoutput => true,
     }
 }
